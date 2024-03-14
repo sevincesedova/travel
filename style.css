@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1400px;
+    max-width: 90%;
+    margin: 0 auto;
+   
+   
+}
+.navbar{
+    background-color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.btn{
+    background-color: rgb(236, 222, 17);
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn a{
+    color: white;
+}
+.text{
+    width: 100%;
+}
+.button{
+  
+    padding: 15px 30px;
+    background-color: rgb(7, 8, 60);
+    color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    
+
+}
+
+.button a{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+}
+.bg_img{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://preview.colorlib.com/theme/tralive/assets/img/hero/h1_hero1.png.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Madimi One", sans-serif;
+    padding: 50px 0px;
+}
+.text h1{
+    font-size: 25px;
+    padding: 25px 0px;
+    
+    
+}
+.text p{
+    padding: 20px   0px;
+}
+
+
+.bus img{ 
+    animation-name: bus;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+    bottom:0px;
+    right: -9%;
+
+}
+
+@keyframes bus{
+    from{
+        transform: translateX(2em);
+    }
+    to{
+        transform: translateX(10em);
+    }
+   
+}
+    
+.head h2{
+    font-family: "Madimi One", sans-serif;
+    color: rgb(9, 9, 120);
+    font-size: 30px;
+    text-align: center;
+    padding: 80px 0px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: relative;
+   
+}
+.icon{
+    width: 80%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left{
+    background-color: rgb(254, 252, 250);
+   font-size: 20px;
+    right: 0px;
+}
+#right{
+    
+    background-color: rgb(254, 252, 250);
+   font-size: 20px;
+    left: 0px;
+}
+.card{
+    width: 25%;
+    padding: 60px 0px;
+}
+.card img{
+    width: 100%;
+}
+
+.card_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+    color: rgb(41, 76, 249);
+    box-shadow: rgba(229, 240, 220, 0.867) 0px 5px 15px;
+   padding: 40px 0px;
+}
